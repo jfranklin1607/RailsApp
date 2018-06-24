@@ -1,7 +1,7 @@
 class ApplicationController < ActionController::Base
   def index
   		@title = 'Welcome'
-  		@content = 'Welcome to the HomePage'
+  		@content = 'Welcome to the Home Page'
   end
 
   def about
